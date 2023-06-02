@@ -1,0 +1,10 @@
+//testedasdad
+origin is (120, 240);
+scale is (100, 100);
+rot is 0;
+/*
+dasa
+*/
+color is red;
+size is mid;
+for t from 8 to (4*pi+8) step pi/50 draw (cos(t/2-4),sin(t/2-4));
