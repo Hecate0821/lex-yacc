@@ -17,5 +17,7 @@ while True:
 
     plt.plot(int(dot_x),int(dot_y), color=style_color.strip(), marker=style_type.strip(), markersize=int(style_size.strip()))
 
+canvas.close()
+style.close()
 plt.show()
 
