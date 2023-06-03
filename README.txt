@@ -16,7 +16,7 @@ Mac没有什么简单的C图形库，联合编译折腾不好
 command:
 flex -o scanner.c scanner.l
 bison -d parser.y
-gcc -o main semantics.c scanner.c parser.tab.c -lstdc++
+clang -o main semantics.c scanner.c parser.tab.c -lstdc++
 
 增加了设定绘图颜色，点的大小和样式
 代码有参考
